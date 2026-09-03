@@ -175,8 +175,7 @@ nav a:hover {
 }
 
 .status,
-.label,
-.game-title span {
+.label span {
   color: var(--accent-light);
 }
 
@@ -203,43 +202,6 @@ nav a:hover {
 
 .text-link:hover {
   color: #d4c6ea;
-}
-
-/* Game title */
-
-.game-title {
-  min-height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  padding: 40px;
-
-  border-left: 1px solid var(--border);
-
-  background: #13101b;
-}
-
-.game-title span {
-  margin-bottom: 5px;
-
-  color: var(--accent);
-
-  font-size: 13px;
-  font-weight: 600;
-
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-}
-
-.game-title strong {
-  max-width: 220px;
-
-  font-size: 34px;
-  line-height: 1.05;
-
-  letter-spacing: -0.04em;
 }
 
 /* Footer */
@@ -319,13 +281,6 @@ footer {
 
   .game-content {
     padding: 30px;
-  }
-
-  .game-title {
-    min-height: 220px;
-
-    border-left: 0;
-    border-top: 1px solid var(--border);
   }
 
   .footer-inner {
