@@ -336,3 +336,26 @@ footer {
     gap: 10px;
   }
 }
+
+.game-capsule {
+  min-height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-left: 1px solid var(--border);
+
+  background: #13101b;
+}
+
+.game-capsule img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  border-radius: 8px;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
