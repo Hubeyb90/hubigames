@@ -204,6 +204,10 @@ nav a:hover {
   color: #d4c6ea;
 }
 
+.game + .game {
+  margin-top: 28px;
+}
+
 /* Footer */
 
 footer {
@@ -266,6 +270,22 @@ footer {
 
 .legal a {
   color: var(--accent);
+}
+
+.legal h3 {
+  margin: 18px 0 4px;
+
+  font-size: 15px;
+}
+
+.legal > p {
+  color: var(--muted);
+}
+
+.legal .updated {
+  margin: -30px 0 24px;
+
+  font-size: 13px;
 }
 
 /* Mobile */
